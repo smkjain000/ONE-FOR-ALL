@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second" />
+        <activity android:name=".Third" />
+        <activity android:name=".Fourth" />
+        <activity android:name=".Fifth" />
+        <activity android:name=".Sixth" />
+        <activity android:name=".Seventh" />
+        <activity android:name=".Eight" />
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Ninth" />
+        <activity android:name=".Tenth" />
+        <activity android:name=".Eleventh" />
+        <activity android:name=".Tweleveth" />
+        <activity android:name=".Thirteenth" />
+        <activity android:name=".Fourteenth" />
+        <activity android:name=".Fifteenth" />
+        <activity android:name=".Sixteenth"></activity>
+    </application>
+
+</manifest>
